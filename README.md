@@ -10,10 +10,12 @@ This is why it is called "colorselector" rather than "colorpicker".
 
 + [@flaute](https://github.com/flaute/)
 
-Inspired by (and partly forked from):
+## Inspired by (and partly forked from):
 
-+ [@angus-c](https://github.com/tkrotoff/jquery-simplecolorpicker)
-+ [@danwrong](https://github.com/lauren/pick-a-color)
++ [@tkrotoff](https://github.com/tkrotoff/)
++ https://github.com/tkrotoff/jquery-simplecolorpicker
++ [lauren](https://github.com/lauren/)
++ https://github.com/lauren/pick-a-color
 
 ## License
 
