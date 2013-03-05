@@ -6,10 +6,17 @@ A colorselector for Twitter Bootstrap which lets you select a color from a prede
 In contrast to many other colorpickers found on Github this one is reduced to a predefined set of colors.
 This is why it is called "colorselector" rather than "colorpicker".
 
-Inspired (and partly forked) by:
+## Authors
 
-https://github.com/tkrotoff/jquery-simplecolorpicker
++ [@flaute](https://github.com/flaute/)
 
-https://github.com/lauren/pick-a-color
+Inspired by (and partly forked from):
 
-Thanks to both for their inspiration and ideas.
++ [@angus-c](https://github.com/tkrotoff/jquery-simplecolorpicker)
++ [@danwrong](https://github.com/lauren/pick-a-color)
+
+## License
+
+Copyright 2013 Flaute
+
+Licensed under the MIT License
