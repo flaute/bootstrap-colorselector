@@ -12,9 +12,8 @@ This is why it is called "colorselector" rather than "colorpicker".
 
 ## Inspired by (and partly forked from):
 
-+ [@tkrotoff](https://github.com/tkrotoff/) https://github.com/tkrotoff/jquery-simplecolorpicker
-+ [lauren](https://github.com/lauren/)
-+ https://github.com/lauren/pick-a-color
++ [@tkrotoff](https://github.com/tkrotoff/) / https://github.com/tkrotoff/jquery-simplecolorpicker
++ [lauren](https://github.com/lauren/) / https://github.com/lauren/pick-a-color
 
 ## License
 
