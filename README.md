@@ -7,7 +7,9 @@ In contrast to many other colorpickers found on Github this one is reduced to a 
 This is why it is called "colorselector" rather than "colorpicker".
 
 Inspired (and partly forked) by:
+
 https://github.com/tkrotoff/jquery-simplecolorpicker
+
 https://github.com/lauren/pick-a-color
 
 Thanks to both for their inspiration and ideas.
