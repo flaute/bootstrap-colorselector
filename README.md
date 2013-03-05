@@ -15,6 +15,8 @@ This is why it is called "colorselector" rather than "colorpicker".
 + [@tkrotoff](https://github.com/tkrotoff/) / https://github.com/tkrotoff/jquery-simplecolorpicker
 + [@lauren](https://github.com/lauren/) / https://github.com/lauren/pick-a-color
 
+Thanks to both for their inspiration and ideas.
+
 ## License
 
 Copyright 2013 Flaute
