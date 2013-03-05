@@ -12,7 +12,7 @@ http://bootstrap-colorselector.flaute.com/
 
 ## Authors
 
-+ [@flaute](https://github.com/flaute/)
++ [@Chrickel](https://github.com/flaute/)
 
 ## Inspired by (and partly forked from):
 
