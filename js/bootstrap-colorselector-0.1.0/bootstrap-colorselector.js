@@ -174,9 +174,11 @@
 			this.hidePicker();
 
 			// change HTML selected option
+			this.$select[0].selectedIndex = -1; // Safari
 			this.$select.children().removeAttr("selected");
 			this.$select.children("option[value='" + value + "']").attr(
 					"selected", true);
+			this.$select[0].value = value; // Firefox
 			// trigger the change-handler
 			this.$select.trigger("change");
 
