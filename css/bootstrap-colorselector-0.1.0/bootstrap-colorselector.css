@@ -6,7 +6,7 @@
  *
  * Licensed under the MIT license
  */
-.colorselector.picker:before {
+.colorselector.bootstrap-colorpicker:before {
 	position: absolute;
 	top: -7px;
 	left: 9px;
@@ -18,7 +18,7 @@
 	content: '';
 }
 
-.colorselector.picker:after {
+.colorselector.bootstrap-colorpicker:after {
 	position: absolute;
 	top: -6px;
 	left: 10px;
@@ -29,7 +29,7 @@
 	content: '';
 }
 
-.colorselector.picker {
+.colorselector.bootstrap-colorpicker {
 	position: absolute;
 	top: 100%;
 	left: 0;
