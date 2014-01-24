@@ -50,7 +50,7 @@
 
 			// markup for the picker
 			var $markupPicker = $("<div>").addClass("colorselector").addClass(
-					"picker");
+					"bootstrap-colorpicker");
 
 			var colorCounter = 0;
 
