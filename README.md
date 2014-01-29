@@ -23,6 +23,6 @@ Thanks for their inspiration and ideas.
 
 ## License
 
-Copyright 2013 Flaute
+Copyright 2014 Flaute
 
 Licensed under the MIT License
