@@ -14,7 +14,7 @@ http://bootstrap-colorselector.flaute.com/
 
 + [@Chrickel](https://github.com/flaute/)
 
-## Inspired by (and partly forked from):
+## Inspired by:
 
 + [@tkrotoff](https://github.com/tkrotoff/) / https://github.com/tkrotoff/jquery-simplecolorpicker
 + [@lauren](https://github.com/lauren/) / https://github.com/lauren/pick-a-color
