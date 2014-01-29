@@ -19,7 +19,7 @@ http://bootstrap-colorselector.flaute.com/
 + [@tkrotoff](https://github.com/tkrotoff/) / https://github.com/tkrotoff/jquery-simplecolorpicker
 + [@lauren](https://github.com/lauren/) / https://github.com/lauren/pick-a-color
 
-Thanks to both for their inspiration and ideas.
+Thanks for their inspiration and ideas.
 
 ## License
 
