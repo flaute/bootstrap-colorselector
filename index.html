@@ -11,6 +11,14 @@
 <link rel="stylesheet" type="text/css" href="css/docs.css" />
 <link rel="stylesheet" type="text/css" href="css/prettify.css" />
 
+    <style>
+        .custom {
+            border-radius: 50px;
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
 </head>
 <body>
   <a href="https://github.com/flaute/bootstrap-colorselector"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
@@ -129,6 +137,53 @@
 &lt;/script&gt;
 </pre>
 
+        <h3>Custom Example</h3>
+        <p>The simplest way to use the ColorSelector.</p>
+        <div class="bs-docs-example">
+            <select id="colorselector_3" class="custom">
+                <option value="106" data-color="#A0522D">sienna</option>
+                <option value="47" data-color="#CD5C5C" selected="selected">indianred</option>
+                <option value="87" data-color="#FF4500">orangered</option>
+                <option value="17" data-color="#008B8B">darkcyan</option>
+                <option value="18" data-color="#B8860B">darkgoldenrod</option>
+                <option value="68" data-color="#32CD32">limegreen</option>
+                <option value="42" data-color="#FFD700">gold</option>
+                <option value="77" data-color="#48D1CC">mediumturquoise</option>
+                <option value="107" data-color="#87CEEB">skyblue</option>
+                <option value="46" data-color="#FF69B4">hotpink</option>
+                <option value="47" data-color="#CD5C5C">indianred</option>
+                <option value="64" data-color="#87CEFA">lightskyblue</option>
+                <option value="13" data-color="#6495ED">cornflowerblue</option>
+                <option value="15" data-color="#DC143C">crimson</option>
+                <option value="24" data-color="#FF8C00">darkorange</option>
+                <option value="78" data-color="#C71585">mediumvioletred</option>
+                <option value="123" data-color="#000000">black</option>
+            </select>
+        </div>
+      <pre class="prettyprint linenums">
+&lt;style&gt;
+    .custom {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+&lt;/style&gt;
+
+&lt;select id="colorselector" class="custom"&gt;
+    &lt;option value="106" data-color="#A0522D"&gt;sienna&lt;/option&gt;
+    &lt;option value="47" data-color="#CD5C5C" selected="selected"&gt;indianred&lt;/option&gt;
+    &lt;option value="87" data-color="#FF4500"&gt;orangered&lt;/option&gt;
+    ...
+    &lt;option value="15" data-color="#DC143C"&gt;crimson&lt;/option&gt;
+    &lt;option value="24" data-color="#FF8C00"&gt;darkorange&lt;/option&gt;
+    &lt;option value="78" data-color="#C71585"&gt;mediumvioletred&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;script&gt;
+    $('#colorselector').colorselector();
+&lt;/script&gt;
+</pre>
+
 
       <hr class="bs-docs-separator">
 
@@ -215,6 +270,8 @@
         $("#setValue").click(function(e) {
           $("#colorselector_2").colorselector("setValue", 18);
         })
+
+         $('#colorselector_3').colorselector();
 
       });
     </script>
