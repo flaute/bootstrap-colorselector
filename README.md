@@ -6,6 +6,9 @@ A colorselector for Twitter Bootstrap which lets you select a color from a prede
 In contrast to many other colorpickers found on Github this one is reduced to a predefined set of colors.
 This is why it is called "colorselector" rather than "colorpicker".
 
+## Install
+Make sure you have npm installed. Then simply run `npm install` in the root directory.
+
 ## Examples / Demo
 
 http://bootstrap-colorselector.flaute.com/
