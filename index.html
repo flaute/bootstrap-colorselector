@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>bootstrap-colorselector</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bootstrap-colorselector</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link href="lib/bootstrap-colorselector-0.2.0/css/bootstrap-colorselector.css" rel="stylesheet" />
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link href="lib/bootstrap-colorselector-0.2.0/css/bootstrap-colorselector.css" rel="stylesheet" />
 
-  <link rel="stylesheet" type="text/css" href="css/docs.css" />
-  <link rel="stylesheet" type="text/css" href="css/prettify.css" />
+<link rel="stylesheet" type="text/css" href="css/docs.css" />
+<link rel="stylesheet" type="text/css" href="css/prettify.css" />
 
 </head>
-
 <body>
-  <a href="https://github.com/flaute/bootstrap-colorselector"><img
-      style="position: absolute; top: 0; right: 0; border: 0;"
-      src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+  <a href="https://github.com/flaute/bootstrap-colorselector"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 
   <div class="container">
 
@@ -95,8 +91,7 @@
         </select> <br />
         <button class="btn" type="button" id="setColor">set by color (#008B8B)</button>
         <button class="btn" type="button" id="setValue">set by value (18)</button>
-        <input type="text" id="colorValue" /> <input type="text" id="colorColor" /> <input type="text"
-          id="colorTitle" />
+        <input type="text" id="colorValue" /> <input type="text" id="colorColor" /> <input type="text" id="colorTitle" />
       </div>
       <pre class="prettyprint linenums">
 &lt;select id="colorselector"&gt;
@@ -200,29 +195,28 @@
   <script src="lib/bootstrap-colorselector-0.2.0/js/bootstrap-colorselector.js"></script>
 
   <script>
-    $(function () {
+      $(function() {
 
-      window.prettyPrint && prettyPrint();
+        window.prettyPrint && prettyPrint();
 
-      $('#colorselector_1').colorselector();
-      $('#colorselector_2').colorselector({
-        callback: function (value, color, title) {
-          $("#colorValue").val(value);
-          $("#colorColor").val(color);
-          $("#colorTitle").val(title);
-        }
+        $('#colorselector_1').colorselector();
+        $('#colorselector_2').colorselector({
+          callback : function(value, color, title) {
+            $("#colorValue").val(value);
+            $("#colorColor").val(color);
+            $("#colorTitle").val(title);
+          }
+        });
+
+        $("#setColor").click(function(e) {
+          $("#colorselector_2").colorselector("setColor", "#008B8B");
+        })
+
+        $("#setValue").click(function(e) {
+          $("#colorselector_2").colorselector("setValue", 18);
+        })
+
       });
-
-      $("#setColor").click(function (e) {
-        $("#colorselector_2").colorselector("setColor", "#008B8B");
-      })
-
-      $("#setValue").click(function (e) {
-        $("#colorselector_2").colorselector("setValue", 18);
-      })
-
-    });
-  </script>
+    </script>
 </body>
-
 </html>
