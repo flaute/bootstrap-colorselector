@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-colorselector",
+  "version": "1.0.0",
+  "description": "bootstrap-colorselector =======================",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonath92/bootstrap-colorselector.git"
+  },
+  "keywords": [],
+  "author": "Jonathan Heard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonath92/bootstrap-colorselector/issues"
+  },
+  "homepage": "https://github.com/jonath92/bootstrap-colorselector#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-icons": "^1.2.1",
+    "jquery": "^3.5.1"
+  }
+}
